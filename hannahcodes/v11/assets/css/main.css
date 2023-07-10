@@ -22,7 +22,7 @@
 8. header image styling
 9. 404.html styling
 10. terms.html styling
-*/
+
 /*-----------1:general styling----------*/
 * {
   margin: 0;
@@ -559,8 +559,7 @@ nav .hamburger div {
   color: var(--light-nav-text-colour);
   font-weight: bold;
   font-size: 20px;
-  -webkit-text-decoration-color: var(--light-hover-active-colour);
-          text-decoration-color: var(--light-hover-active-colour);
+  text-decoration-color: var(--light-hover-active-colour);
 }
 .index_friends_section .friend-container_pink:hover > .friend-name_pink {
   text-decoration: underline;
@@ -586,8 +585,7 @@ nav .hamburger div {
     color: var(--light-nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--light-hover-active-colour);
-            text-decoration-color: var(--light-hover-active-colour);
+    text-decoration-color: var(--light-hover-active-colour);
   }
   .index_friends_section .friend-container_pink .friend-container_pink:hover > .friend-name_pink {
     text-decoration: underline;
@@ -607,8 +605,7 @@ nav .hamburger div {
     color: var(--nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--hover-active-colour);
-            text-decoration-color: var(--hover-active-colour);
+    text-decoration-color: var(--hover-active-colour);
   }
   .index_friends_section .friend-container_pink:hover > .friend-name_pink {
     text-decoration: underline;
@@ -634,8 +631,7 @@ nav .hamburger div {
   color: var(--light-nav-text-colour);
   font-weight: bold;
   font-size: 20px;
-  -webkit-text-decoration-color: var(--light-blue-friends-hover-colour);
-          text-decoration-color: var(--light-blue-friends-hover-colour);
+  text-decoration-color: var(--light-blue-friends-hover-colour);
 }
 .index_friends_section .friend-container_blue:hover > .friend-name_blue {
   text-decoration: underline;
@@ -661,8 +657,7 @@ nav .hamburger div {
     color: var(--light-nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--light-blue-friends-hover-colour);
-            text-decoration-color: var(--light-blue-friends-hover-colour);
+    text-decoration-color: var(--light-blue-friends-hover-colour);
   }
   .index_friends_section .friend-container_blue:hover > .friend-name_blue {
     text-decoration: underline;
@@ -682,8 +677,7 @@ nav .hamburger div {
     color: var(--nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--blue-friends-hover-colour);
-            text-decoration-color: var(--blue-friends-hover-colour);
+    text-decoration-color: var(--blue-friends-hover-colour);
   }
   .index_friends_section .friend-container_blue:hover > .friend-name_blue {
     text-decoration: underline;
@@ -1740,12 +1734,10 @@ hr.tm-hr-secondary {
     margin-left: -15px;
   }
   .tm-post .col-12 {
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
   .tm-post .col-md-6 {
-    width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
   }

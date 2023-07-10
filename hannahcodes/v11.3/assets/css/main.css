@@ -668,8 +668,7 @@ nav .hamburger div {
   color: var(--light-nav-text-colour);
   font-weight: bold;
   font-size: 20px;
-  -webkit-text-decoration-color: var(--light-hover-active-colour);
-          text-decoration-color: var(--light-hover-active-colour);
+  text-decoration-color: var(--light-hover-active-colour);
 }
 .index_friends_section .friend-container_pink:hover > .friend-name_pink {
   text-decoration: underline;
@@ -695,8 +694,7 @@ nav .hamburger div {
     color: var(--light-nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--light-hover-active-colour);
-            text-decoration-color: var(--light-hover-active-colour);
+    text-decoration-color: var(--light-hover-active-colour);
   }
   .index_friends_section .friend-container_pink .friend-container_pink:hover > .friend-name_pink {
     text-decoration: underline;
@@ -716,8 +714,7 @@ nav .hamburger div {
     color: var(--nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--hover-active-colour);
-            text-decoration-color: var(--hover-active-colour);
+    text-decoration-color: var(--hover-active-colour);
   }
   .index_friends_section .friend-container_pink:hover > .friend-name_pink {
     text-decoration: underline;
@@ -743,8 +740,7 @@ nav .hamburger div {
   color: var(--light-nav-text-colour);
   font-weight: bold;
   font-size: 20px;
-  -webkit-text-decoration-color: var(--light-blue-friends-hover-colour);
-          text-decoration-color: var(--light-blue-friends-hover-colour);
+  text-decoration-color: var(--light-blue-friends-hover-colour);
 }
 .index_friends_section .friend-container_blue:hover > .friend-name_blue {
   text-decoration: underline;
@@ -770,8 +766,7 @@ nav .hamburger div {
     color: var(--light-nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--light-blue-friends-hover-colour);
-            text-decoration-color: var(--light-blue-friends-hover-colour);
+    text-decoration-color: var(--light-blue-friends-hover-colour);
   }
   .index_friends_section .friend-container_blue:hover > .friend-name_blue {
     text-decoration: underline;
@@ -791,8 +786,7 @@ nav .hamburger div {
     color: var(--nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    -webkit-text-decoration-color: var(--blue-friends-hover-colour);
-            text-decoration-color: var(--blue-friends-hover-colour);
+    text-decoration-color: var(--blue-friends-hover-colour);
   }
   .index_friends_section .friend-container_blue:hover > .friend-name_blue {
     text-decoration: underline;
